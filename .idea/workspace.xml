@@ -49,17 +49,27 @@
     "Python.12_factorial_division.executor": "Run",
     "Python.1_data_types.executor": "Debug",
     "Python.1_no_vowels.executor": "Run",
+    "Python.1_which_are_in.executor": "Run",
     "Python.2_center_point.executor": "Run",
+    "Python.2_next_version.executor": "Run",
     "Python.2_trains.executor": "Debug",
+    "Python.3_characters_in_range.executor": "Run",
     "Python.3_longer_line.executor": "Run",
     "Python.3_to_do_list.executor": "Run",
+    "Python.3_word_filter.executor": "Run",
+    "Python.4_number_classification.executor": "Run",
     "Python.4_palindrome_strings.executor": "Run",
     "Python.4_tribonacci_sequence.executor": "Run",
     "Python.5_multiplication_sign.executor": "Run",
+    "Python.5_office_chairs.executor": "Run",
     "Python.5_sorting_names.executor": "Run",
+    "Python.6_electron_distribution.executor": "Debug",
     "Python.6_even_numbers.executor": "Run",
+    "Python.7_group_of_10_s.executor": "Run",
     "Python.7_the_office.executor": "Run",
+    "Python.8_decipher_this.executor": "Run",
     "Python.8_seize_the_fire.executor": "Run",
+    "Python.9_anonymous_threat.executor": "Run",
     "Python.notes.executor": "Run",
     "Python.qwe.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,14 +80,12 @@
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
       "repository"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.7_the_office">
-    <configuration name="3_to_do_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.9_anonymous_threat">
+    <configuration name="5_office_chairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fundamentals_course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_lab/3_to_do_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises/5_office_chairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_palindrome_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6_electron_distribution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fundamentals_course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_lab/4_palindrome_strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises/6_electron_distribution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_sorting_names" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7_group_of_10_s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fundamentals_course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_lab/5_sorting_names.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises/7_group_of_10_s.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6_even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8_decipher_this" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fundamentals_course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_lab/6_even_numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises/8_decipher_this.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7_the_office" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9_anonymous_threat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fundamentals_course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_lab/7_the_office.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_advanced/list_advanced_exercises/9_anonymous_threat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.7_the_office" />
-        <item itemvalue="Python.6_even_numbers" />
-        <item itemvalue="Python.5_sorting_names" />
-        <item itemvalue="Python.4_palindrome_strings" />
-        <item itemvalue="Python.3_to_do_list" />
+        <item itemvalue="Python.9_anonymous_threat" />
+        <item itemvalue="Python.8_decipher_this" />
+        <item itemvalue="Python.7_group_of_10_s" />
+        <item itemvalue="Python.6_electron_distribution" />
+        <item itemvalue="Python.5_office_chairs" />
       </list>
     </recent_temporary>
   </component>
@@ -220,12 +228,29 @@
       <option name="project" value="LOCAL" />
       <updated>1749589297281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factorial Division">
+      <option name="closed" value="true" />
+      <created>1749944324084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749944324084</updated>
+    </task>
+    <task id="LOCAL-00003" summary="List advanced lab exercises">
+      <option name="closed" value="true" />
+      <created>1749944387875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749944387875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factorial Division" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factorial Division" />
+    <MESSAGE value="List advanced lab exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="List advanced lab exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,16 +328,6 @@
           <url>file://$PROJECT_DIR$/functions/functions_more_exercises/4_tribonacci_sequence.py</url>
           <line>15</line>
           <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/list_advanced/list_advanced_lab/2_trains.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/list_advanced/list_advanced_lab/2_trains.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
