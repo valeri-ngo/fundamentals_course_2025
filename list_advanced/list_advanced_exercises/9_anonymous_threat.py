@@ -1,38 +1,56 @@
+def merge(data_input, start, end):
+    elements_to_merge = data_input[start:end +1]
+    merged = "".join(elements_to_merge)
+
+    for _ in range(end - start + 1):
+        data_input.pop(start)
+    data_input.insert(start, merged)
+
+
+def divide(data_input, index, partitions):
+    element = data_input[index]
+    part_length = len(element) // partitions
+    remainder = len(element) % partitions
+
+    parts = []
+
+    current_position = 0
+
+    for i in range(partitions):
+        current_part_length = part_length
+
+        if i == partitions -1:
+            current_part_length += remainder
+
+        part = element[current_position:current_position + current_part_length]
+        parts.append(part)
+
+        current_position += current_part_length
+
+    data_input.pop(index)
+
+    for i,part in enumerate(parts):
+        data_input.insert(index + i, part)
+
 string_input = input().split()
-command = input()
 
-while command != "3:1":
-    strings = command.split()
-    action = strings[0]
+while True:
+    command = input().split()
+    if command[0] == "3:1":
+        break
 
-    if action == "merge":
-        starting_index = int(strings[1])
-        final_index = int(strings[2])
-        starting_index = max(0, starting_index)
-        final_index = min(len(string_input) -1, final_index)
+    elif command[0] == "merge":
+        start_index = int(command[1])
+        end_index = int(command[2])
+        if start_index < 0:
+            start_index = 0
+        if end_index >= len(string_input):
+            end_index = len(string_input ) -1
+        merge(string_input, start_index, end_index)
 
-        if starting_index <= final_index:
-            merge = ''.join(string_input[starting_index:final_index + 1])
-            string_input[starting_index:final_index +1 ] = [merge]
+    elif command[0] == "divide":
+        index = int(command[1])
+        partitions = int(command[2])
+        divide(string_input, index, partitions)
 
-    elif action == "divide":
-        index = int(strings[1])
-        partitions = int(strings[2])
-
-        if 0 <= index < len(string_input) and partitions > 0:
-            divided_string = string_input[index]
-            partition_size = len(divided_string) // partitions
-            extra = len(divided_string) % partitions
-
-            new_strings = []
-            starting_point = 0
-            for num in range(partitions):
-                added = 1 if num < extra else 0
-                new_strings.append(divided_string[starting_point:starting_point + partition_size + added])
-                starting_point += partition_size + added
-
-            string_input[index:index +1] = new_strings
-
-    command = input()
-
-print(' '.join(string_input))
+print(" ".join(string_input))
