@@ -6,7 +6,7 @@ def positive_integer(number:int) -> str:
             divisor_sum += current_number
 
     if divisor_sum == number:
-        print("We have a perfect number")
+        print("We have a perfect number!")
     else:
         print("It's not so perfect.")
 

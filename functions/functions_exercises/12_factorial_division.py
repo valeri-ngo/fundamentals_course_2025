@@ -5,7 +5,7 @@ def factorial(number:int) -> int:
         result *= current_number
     return result
 
-def factorial_new_value(first_number:int, second_number:int) -> int:
+def factorial_new_value(first_number:int, second_number:int) -> None:
     number_one = factorial(first_number)
     number_two = factorial(second_number)
     division_sum = number_one / number_two
