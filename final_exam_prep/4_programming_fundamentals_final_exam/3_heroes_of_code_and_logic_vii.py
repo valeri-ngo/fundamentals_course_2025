@@ -24,7 +24,6 @@ def recharge(hero_info: dict, hero_name: str, amount_mp_recharged: int):
     hero_info[hero_name]['mana_pts'] = mana_pts
     print(f'{hero_name} recharged for {actual_mp_recharged} MP!')
 
-
 def heal(hero_info: dict, hero_name:str, amount_hp_recharged: int):
     hit_pts = hero_info[hero_name]['hit_pts']
     actual_hp_recharged = min(amount_hp_recharged, 100 - hit_pts)
