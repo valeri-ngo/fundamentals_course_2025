@@ -1,6 +1,5 @@
 import re
 
-
 class Emoji:
 
     def __init__(self):
