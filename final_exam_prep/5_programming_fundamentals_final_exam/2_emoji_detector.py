@@ -3,13 +3,11 @@ import re
 class Emoji:
 
     def __init__(self):
-        pass
+        self.key = r'(\*\*|::)([A-Z][a-z]{2,})\1'
 
     def regex(self, string):
-        self.key = r'(\*\*|::)([A-Z][a-z]{2,})\1'
-        string = list(re.finditer(self.key, string))
-        return string
-
+        return list(re.finditer(self.key, string))
+        
     def cool_threshold(self, string):
         cool_threshold = 1
         for digit in re.findall(r'\d', string):
